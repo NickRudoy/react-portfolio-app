@@ -3,16 +3,31 @@ import React from "react";
 const Social = () => {
   return (
     <div className="home__social">
-      <a href="https://www.instagram.com/" className="home__social-icon" target="_blank" rel="noreferrer">
-        <i class="uil uil-telegram"></i>
+      <a
+        href="https://www.instagram.com/"
+        className="home__social-icon"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="uil uil-telegram"></i>
       </a>
 
-      <a href="https://dribbble.com/" className="home__social-icon" target="_blank" rel="noreferrer">
-        <i class="uil uil-dribbble"></i>
+      <a
+        href="https://dribbble.com/"
+        className="home__social-icon"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="uil uil-dribbble"></i>
       </a>
 
-      <a href="https://github.com/NickRudoy" className="home__social-icon" target="_blank" rel="noreferrer">
-        <i class="uil uil-github-alt"></i>
+      <a
+        href="https://github.com/NickRudoy"
+        className="home__social-icon"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="uil uil-github-alt"></i>
       </a>
     </div>
   );
