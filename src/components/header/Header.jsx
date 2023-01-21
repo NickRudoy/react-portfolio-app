@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Swichtheme from "../swichtheme/Swichtheme";
 import "./header1.css";
 
 const Header = () => {
@@ -110,7 +111,7 @@ const Header = () => {
             onClick={() => showMenu(!Toggle)}
           ></i>
         </div>
-
+        <Swichtheme />
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
           <i className="uil uil-apps"></i>
         </div>
