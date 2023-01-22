@@ -21,7 +21,7 @@ const Swichtheme = () => {
       role="switch"
       aria-checked
     >
-      {theme === "dark" ? (
+      {theme === "dark-theme" ? (
         <i className="uil uil-sun"></i>
       ) : (
         <i className="uil uil-moon"></i>

@@ -87,12 +87,9 @@
   bottom: 2rem;
 }
 
-/* Active link  */
+/* Active link */
 .active-link {
   color: var(--title-color);
-}
-.nav__link:hover {
-  color: var(--title-color-dark);
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -155,6 +152,12 @@
   .nav__link {
     font-size: var(--normal-font-size);
   }
+  .dark-theme .nav,
+  .dark-theme .nav__menu,
+  .dark-theme .change-theme {
+    background-color: var(--body-color);
+    box-shadow: none;
+  }
 
   .change-theme {
     color: var(--text-color-light);
@@ -180,5 +183,8 @@
 
   .bg-header {
     box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
+  }
+  .dark-theme .bg-header {
+    box-shadow: 0 6px 24px hsla(207, 24%, 8%, 0.6);
   }
 }
